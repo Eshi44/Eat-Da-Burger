@@ -29,7 +29,7 @@ function objToSql(ob) {
 
 // Object for all our sql statement functions
 
-var burgers = {
+var ormBurgers = {
   //function to return all entries within table
   selectAll: function (tableInput, cb) {
     //returns all rows from table
@@ -95,4 +95,4 @@ var burgers = {
 };
 
 // export burgers object
-module.exports = burgers;
+module.exports = ormBurgers;
