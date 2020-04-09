@@ -1,0 +1,26 @@
+{
+  "name": "Eat-Da-Burger",
+  "version": "1.0.0",
+  "description": "Following the MVC design, this app allows users to log burgers using Node, Express, MySQL, Handlebars, and ORM. Node and MySQL are used to query and route data in the app, and Handlebars is used to generate the HTML.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eshi44/Eat-Da-Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eshi44/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/Eshi44/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mysql": "^2.18.1"
+  }
+}
