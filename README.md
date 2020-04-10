@@ -8,7 +8,7 @@ Following the MVC design, this app allows users to log burgers using Node, Expre
 
 * The app will store every burger in a database, whether devoured or not.
 
-![Eat-da-burger](/assets/img/Eat-da-burger.PNG)
+![Eat-da-burger](public/assets/img/Eat-da-burger.PNG)
 
 
 
@@ -31,7 +31,7 @@ Following the MVC design, this app allows users to log burgers using Node, Expre
 
 ## Heroku
 
-Check out Eat-Da-Burger on Heroku: [I'm an inline-style link with title](https://eat-da-burger-log-da-burger.herokuapp.com/ "Eat-Da-Burger")
+Check out Eat-Da-Burger on Heroku: [Eat-Da-Burger](https://eat-da-burger-log-da-burger.herokuapp.com/ )
 
 ## Instructions for deployment
 
