@@ -8,7 +8,7 @@ Following the MVC design, this app allows users to log burgers using Node, Expre
 
 * The app will store every burger in a database, whether devoured or not.
 
-![Eat-da-burger](public\assets\img\Eat-da-burger.PNG)
+![Eat-da-burger](/assets/img/Eat-da-burger.PNG)
 
 
 
