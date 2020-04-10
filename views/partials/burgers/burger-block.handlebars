@@ -1,8 +1,8 @@
 <li>
-	<p>{{id}}: {{burger_name}}</p>
+	<p>{{id}}. {{burger_name}}</p>
 <span>
-	<button class="change-devoured" data-id="{{id}}" data-newsleep="{{devoured}}">
-		{{#if sleep}}Ate It!{{else}}Devour It!{{/if}}
+	<button class="change-devoured" data-id="{{id}}" data-devoured="{{devoured}}">
+		{{#if devoured}}Ate It!{{else}}Devour It!{{/if}}
 	</button>
 
 	</span>
