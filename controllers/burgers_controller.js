@@ -29,8 +29,8 @@ router.get("/", function(req, res) {
       res.json({ id: result.insertId });
     });
   });
-
-  router.put("api/burgers/:id", function(req, res) {
+//put
+  router.put("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
    
     console.log("condition", condition);
@@ -46,6 +46,6 @@ router.get("/", function(req, res) {
       }
     });
   });
-  
+
   // export routes for server.js 
   module.exports = router;
