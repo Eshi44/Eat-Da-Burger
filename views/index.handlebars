@@ -13,25 +13,25 @@
   </div>
   <div class="row">
     <div class="col">
-      <ul>
+      <ol>
         {{#each burgers}}
           {{#unless devoured}}
             {{> burgers/burger-block devoured=true}}
           {{/unless}}
         {{/each}}
-      </ul>
+      </ol>
     </div>
     <div class="col-5">
     
     </div>
     <div class="col">
-      <ul>
+      <ol>
         {{#each burgers}}
           {{#if devoured}}
             {{> burgers/burger-block devoured=false}}
           {{/if}}
         {{/each}}
-      </ul>
+      </ol>
     </div>
   </div>
  <div class="row">
@@ -46,7 +46,7 @@
 
 
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn btn-danger" >Submit</button>
         <p>Enter a burger you want to eat Click the "Submit" button</p>
       </form>
     </div>
