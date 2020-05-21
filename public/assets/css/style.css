@@ -1,9 +1,12 @@
 body {
 background-color: #ffc36b;
+font-family: 'Handlee', cursive;
 }
 h1 {
-	color: #dc3545;
+	font-size: 60px;
+	color: #c72434;
 	text-align: center;
+	font-weight: bolder;
 }
 .center {
 	display: block;
@@ -21,4 +24,69 @@ h1 {
   margin-bottom: 5%;
   box-shadow: 1px 1px 4px #faad39, 0 0 25px #d8932b, 0 0 5px #c4801a;
   border-radius: 20px;
+}
+#top-margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#utensils {
+	height:25px;
+}
+#submit-btn {
+	border: 2px solid #c4c4c4;
+}
+#submit-btn:hover {
+	background-color: #c4c4c4;
+}
+#eatBtn {
+	border: 2px solid #c4c4c4;
+}
+#list {
+	display:flex;  
+	list-style:none;
+	margin-bottom: 25px;
+}
+#burger-font {
+	font-weight: bold;
+	font-size: 18px;
+}
+#top-bun{
+	height: 60px;
+}
+#second-onion{
+	height: 30px;
+}
+#second-tomato{
+	height: 25px;
+}
+#second-pickle{
+	height: 15px;
+}
+#first-onion{
+	height: 25px;
+}
+#mustard{
+	height: 30px;
+}
+#ketchup{
+	height: 30px;
+}
+#first-tomato{
+	height: 30px;
+}
+#cheese{
+	height: 40px;
+}
+#burger-meat{
+	height: 40px;
+}
+#lettuce{
+	height: 30px;
+}
+#bottom-bun{
+	height: 45px;
+}
+#top-bun, #second-onion, #second-tomato, #second-pickle, #first-pickle, #first-onion, #mustard, #ketchup, #first-tomato, #cheese, #burger-meat, #lettuce, #bottom-bun {
+	display : block;
+	justify-content: center;
 }

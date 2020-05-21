@@ -1,9 +1,9 @@
-<li>
+<li id="list">
+	
 	<p id="burger-font">{{burger_name}}</p>
-<span>
-	<button type= "button" class="btn btn-sm change-devoured btn btn-danger" data-id="{{id}}" data-newlydevoured="{{devoured}}">
-		{{#if devoured}}Devour It!{{else}}Eat It Again!{{/if}}
-	</button> 
 
-	</span>
+	<button type= "button" class="btn btn-sm change-devoured btn btn-default" data-id="{{id}}" data-newlydevoured="{{devoured}}" id="eatBtn" >
+		{{#if devoured}} <img id="utensils" src="/assets/img/utensils.png" alt="utensils">{{else}} <img id="utensils" src="/assets/img/heart.png" alt="utensils">{{/if}}
+	
+	
 </li>
