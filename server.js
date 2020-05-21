@@ -1,5 +1,4 @@
 //require express
-
 var express = require("express");
 
 var PORT = process.env.PORT || 3000;
@@ -13,7 +12,6 @@ app.use(express.static(__dirname + '/public'));
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");

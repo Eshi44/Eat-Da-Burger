@@ -1,14 +1,24 @@
-body {background-color: #fab575;}
-h1 {color: #dc3545;
-text-align: center;}
-
+body {
+background-color: #ffc36b;
+}
+h1 {
+	color: #dc3545;
+	text-align: center;
+}
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-        }
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .change-devoured {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-        }
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#card-body {
+  margin-top: 5%;
+  border: 2px solid #e49d32;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 4px #faad39, 0 0 25px #d8932b, 0 0 5px #c4801a;
+  border-radius: 20px;
+}
