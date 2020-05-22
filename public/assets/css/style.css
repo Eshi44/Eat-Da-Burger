@@ -28,6 +28,7 @@ h1 {
   margin-top: 10%;
   margin-bottom: 10%;
   border-radius: 20px;
+  /* position: relative; */
 }
 #first-row {
 	margin-bottom: 5%;
@@ -139,10 +140,11 @@ h1 {
     z-index: 2;
 } 
 #bottom-bun{
-	height: 45px;
-	--animate-duration: 0s;
-	position: relative;
-	z-index: 1;
+    height: 45px;
+    --animate-duration: 0s;
+    position: absolute;
+    right: 225px;
+    z-index: 1;
 }
 #top-bun, #second-onion, #second-tomato, #second-pickle, #first-pickle, #first-onion, #mustard, #ketchup, #first-tomato, #cheese, #burger-meat, #lettuce, #bottom-bun {
 	display : block;
@@ -152,8 +154,3 @@ h1 {
 	font-size: 25px;
 	text-align: center;
 }
-
-
-  /* :root {
-	--animate-duration: 10s;
-  } */

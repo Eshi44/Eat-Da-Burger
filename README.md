@@ -1,6 +1,7 @@
 # Eat-Da-Burger
 Following the MVC design, this app allows users to log burgers using Node, Express, MySQL, Handlebars, and ORM. Node and MySQL are used to query and route data in the app, and Handlebars are used to generate the HTML.
 
+https://eat-da-burger-log-da-burger.herokuapp.com/
 
 ## Eat-Da-Burger Info:
 
