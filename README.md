@@ -1,44 +1,53 @@
-# Eat-Da-Burger
-Following the MVC design, this app allows users to log burgers using Node, Express, MySQL, Handlebars, and ORM. Node and MySQL are used to query and route data in the app, and Handlebars are used to generate the HTML.
+# Eat-Da-Burger   🍔  A Full-Stack Restaurant App Following the MVC Design
 
-https://eat-da-burger-log-da-burger.herokuapp.com/
+Eat-da-Burger is a restaurant app that lets users view, order, and consume their personalized burgers using Node, Express, MySQL, Handlebars, and ORM. Node and MySQL are used to query and route data in the app, and Handlebars are used to generate the HTML. 
 
-## Eat-Da-Burger Info:
+Simply enter your buger of choice in the input field and click the utensils to order your burger. Your burger will show up in the 'To be eaten...' column. Upon clicking your beurger icon, your burger will then be devoured and move to the devoured column. Don't worry, y can always click on the eaten burger to eat it again!
 
-* Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat. Simply click the 'Devour It!' button to consume the burger and select the 'Eat It Again!' button until your're full! Use the form to submit the burger of your choosing to be eaten.
+# Deployed Application
 
-* The app will store every burger in a database, whether devoured or not.
+Try it out!
+[Eat-Da-Burger](https://eat-da-burger-log-da-burger.herokuapp.com/)
 
-![Eat-da-burger](public/assets/img/Eat-da-burger.PNG)
+# User Story
 
+> As a USER, I want to generate a personalized burger so that I can eat it and keep track of the burgers I've consumed.
 
+# Acceptance Criteria
 
-## Technologies Used:
+```
+GIVEN I want to create a burger
+WHEN I input a burgers name
+THEN I will be presented with that burger to be devoured
 
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* jQuery
-* Node.js
-* Node.js packages: express, express-handlebars, mysql
-* AJAX
-* APIs
-* ORM
-* Express.js
-* MySQL
-* Handlebars.js
-* Heroku
+GIVEN I want to devour a burger
+WHEN I click on the burger icon besides the burger name
+THEN I will see that burger in the "Devoured" list
 
-## Heroku
+```
 
-Check out Eat-Da-Burger on Heroku: [Eat-Da-Burger](https://eat-da-burger-log-da-burger.herokuapp.com/ )
+# Technologies Used:
+- AJAX
+- APIs
+- Animate.css
+- Bootstrap
+- Express
+- Handlebars.js
+- Heroku
+- HTML & CSS
+- JavaScript
+- jQuery
+- MySQL
+- Node.js
+- NPM:
+  - express
+  - express-handlebars
+  - handlebars-helper-css
+  - mysql
+- ORM
 
-## Instructions for deployment
+# Preview
 
-You will have to install the following npm packages:
-* express
-* express-handlebars
-* mysql
+>![Eat-da-burger-gif](public/assets/img/eat-da-burger-gif.gif)
 
-To run the app locally, navigate to its directory and enter "node server.js in the command line.
+>![Eat-da-burger](public/assets/img/eat-da-burger.png)
