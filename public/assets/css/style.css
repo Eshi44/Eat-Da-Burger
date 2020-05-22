@@ -1,12 +1,18 @@
-html, body {
-	background: rgb(255,210,135);
-	background: linear-gradient(100deg, rgba(255,210,135,1) 5%, rgba(255,246,205,1) 51%, rgba(255,210,135,1) 93%);
+html,
+body {
+	background: rgb(255, 210, 135);
+	background: linear-gradient(
+		100deg,
+		rgba(255, 210, 135, 1) 5%,
+		rgba(255, 246, 205, 1) 51%,
+		rgba(255, 210, 135, 1) 93%
+	);
 	height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Handlee', cursive;
+	font-family: "Handlee", cursive;
 }
 h1 {
 	font-size: 60px;
@@ -25,29 +31,28 @@ h1 {
 	margin-right: auto;
 }
 #card-body {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-radius: 20px;
-  /* position: relative; */
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 20px;
 }
-#first-row {
+/* #first-row {
 	margin-bottom: 5%;
-}
+} */
 #top-margin {
 	margin-top: 20px;
 }
 #utensils {
-	height:25px;
+	height: 25px;
 }
 #submit-btn {
 	background-color: white;
 }
 #eatBtn {
-	background-color: #fffbc6;	
+	background-color: #fffbc6;
 }
 #list {
-	display:flex;  
-	list-style:none;
+	display: flex;
+	list-style: none;
 	margin-bottom: 25px;
 	background-color: #fffbc6;
 	padding: 5%;
@@ -57,100 +62,115 @@ h1 {
 	font-weight: bold;
 	font-size: 18px;
 }
-#top-bun{
+#top-bun {
 	height: 62px;
 	--animate-duration: 7s;
 	position: absolute;
 	right: 224px;
-    top: -71px;
-    z-index: 11;
-} 
+	top: -71px;
+	z-index: 11;
+}
 
-#second-tomato{
+#second-tomato {
 	height: 18px;
 	--animate-duration: 4.5s;
 	position: absolute;
 	right: 235px;
-    top: -26px;
-    z-index: 10;
-} 
-#second-pickle{
+	top: -26px;
+	z-index: 10;
+}
+#second-pickle {
 	height: 13px;
 	--animate-duration: 4s;
 	position: absolute;
 	right: 232px;
-    top:-14px;
-    z-index: 9;
-} 
-#first-onion{
+	top: -14px;
+	z-index: 9;
+}
+#first-onion {
 	height: 25px;
 	--animate-duration: 3.5s;
 	position: absolute;
 	right: 233px;
-    top: -28px;
-    z-index: 8;
-} 
-#mustard{
+	top: -28px;
+	z-index: 8;
+}
+#mustard {
 	height: 30px;
 	--animate-duration: 3s;
 	position: absolute;
 	right: 260px;
-    top: -20px;
-    z-index: 7;
-} 
-#ketchup{
+	top: -20px;
+	z-index: 7;
+}
+#ketchup {
 	height: 30px;
 	--animate-duration: 2.5s;
 	position: absolute;
 	right: 238px;
-    top: -19px;
-    z-index: 6;
-} 
-#first-tomato{
+	top: -19px;
+	z-index: 6;
+}
+#first-tomato {
 	height: 30px;
 	--animate-duration: 2s;
 	position: absolute;
 	right: 230px;
-    top: -21px;
-    z-index: 5;
-} 
-#cheese{
+	top: -21px;
+	z-index: 5;
+}
+#cheese {
 	height: 40px;
 	--animate-duration: 1.5s;
 	position: absolute;
 	right: 230px;
-    top: -15px;
-    z-index: 4;
+	top: -15px;
+	z-index: 4;
 }
 
-#burger-meat{
+#burger-meat {
 	height: 45px;
-    --animate-duration: 1s;
-    position: absolute;
-    right: 225px;
-    top: -20px;
-    z-index: 3;
+	--animate-duration: 1s;
+	position: absolute;
+	right: 225px;
+	top: -20px;
+	z-index: 3;
 }
 
-#lettuce{
+#lettuce {
 	height: 30px;
-	--animate-duration: .5s;
+	--animate-duration: 0.5s;
 	position: absolute;
 	right: 220px;
-    z-index: 2;
-} 
-#bottom-bun{
-    height: 45px;
-    --animate-duration: 0s;
-    position: absolute;
-    right: 225px;
-    z-index: 1;
+	z-index: 2;
 }
-#top-bun, #second-onion, #second-tomato, #second-pickle, #first-pickle, #first-onion, #mustard, #ketchup, #first-tomato, #cheese, #burger-meat, #lettuce, #bottom-bun {
-	display : block;
+#bottom-bun {
+	height: 45px;
+	--animate-duration: 0s;
+	position: absolute;
+	right: 225px;
+	z-index: 1;
+}
+#top-bun,
+#second-onion,
+#second-tomato,
+#second-pickle,
+#first-pickle,
+#first-onion,
+#mustard,
+#ketchup,
+#first-tomato,
+#cheese,
+#burger-meat,
+#lettuce,
+#bottom-bun {
+	display: block;
 	justify-content: center;
 }
 #burger-font-size {
 	font-size: 25px;
 	text-align: center;
+}
+#main-burger {
+	margin-top: 8%;
 }
