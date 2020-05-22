@@ -1,6 +1,12 @@
-body {
-background-color: #ffc36b;
-font-family: 'Handlee', cursive;
+html, body {
+	background: rgb(255,210,135);
+	background: linear-gradient(100deg, rgba(255,210,135,1) 5%, rgba(255,246,205,1) 51%, rgba(255,210,135,1) 93%);
+	height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Handlee', cursive;
 }
 h1 {
 	font-size: 60px;
@@ -19,74 +25,135 @@ h1 {
 	margin-right: auto;
 }
 #card-body {
-  margin-top: 5%;
-  border: 2px solid #e49d32;
-  margin-bottom: 5%;
-  box-shadow: 1px 1px 4px #faad39, 0 0 25px #d8932b, 0 0 5px #c4801a;
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-radius: 20px;
+}
+#first-row {
+	margin-bottom: 5%;
 }
 #top-margin {
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 #utensils {
 	height:25px;
 }
 #submit-btn {
-	border: 2px solid #c4c4c4;
-}
-#submit-btn:hover {
-	background-color: #c4c4c4;
+	background-color: white;
 }
 #eatBtn {
-	border: 2px solid #c4c4c4;
+	background-color: #fffbc6;	
 }
 #list {
 	display:flex;  
 	list-style:none;
 	margin-bottom: 25px;
+	background-color: #fffbc6;
+	padding: 5%;
+	border-radius: 18px;
 }
 #burger-font {
 	font-weight: bold;
 	font-size: 18px;
 }
 #top-bun{
-	height: 60px;
-}
-#second-onion{
-	height: 30px;
-}
+	height: 62px;
+	--animate-duration: 7s;
+	position: absolute;
+	right: 224px;
+    top: -71px;
+    z-index: 11;
+} 
+
 #second-tomato{
-	height: 25px;
-}
+	height: 18px;
+	--animate-duration: 4.5s;
+	position: absolute;
+	right: 235px;
+    top: -26px;
+    z-index: 10;
+} 
 #second-pickle{
-	height: 15px;
-}
+	height: 13px;
+	--animate-duration: 4s;
+	position: absolute;
+	right: 232px;
+    top:-14px;
+    z-index: 9;
+} 
 #first-onion{
 	height: 25px;
-}
+	--animate-duration: 3.5s;
+	position: absolute;
+	right: 233px;
+    top: -28px;
+    z-index: 8;
+} 
 #mustard{
 	height: 30px;
-}
+	--animate-duration: 3s;
+	position: absolute;
+	right: 260px;
+    top: -20px;
+    z-index: 7;
+} 
 #ketchup{
 	height: 30px;
-}
+	--animate-duration: 2.5s;
+	position: absolute;
+	right: 238px;
+    top: -19px;
+    z-index: 6;
+} 
 #first-tomato{
 	height: 30px;
-}
+	--animate-duration: 2s;
+	position: absolute;
+	right: 230px;
+    top: -21px;
+    z-index: 5;
+} 
 #cheese{
 	height: 40px;
+	--animate-duration: 1.5s;
+	position: absolute;
+	right: 230px;
+    top: -15px;
+    z-index: 4;
 }
+
 #burger-meat{
-	height: 40px;
+	height: 45px;
+    --animate-duration: 1s;
+    position: absolute;
+    right: 225px;
+    top: -20px;
+    z-index: 3;
 }
+
 #lettuce{
 	height: 30px;
-}
+	--animate-duration: .5s;
+	position: absolute;
+	right: 220px;
+    z-index: 2;
+} 
 #bottom-bun{
 	height: 45px;
+	--animate-duration: 0s;
+	position: relative;
+	z-index: 1;
 }
 #top-bun, #second-onion, #second-tomato, #second-pickle, #first-pickle, #first-onion, #mustard, #ketchup, #first-tomato, #cheese, #burger-meat, #lettuce, #bottom-bun {
 	display : block;
 	justify-content: center;
 }
+#burger-font-size {
+	font-size: 25px;
+	text-align: center;
+}
+
+
+  /* :root {
+	--animate-duration: 10s;
+  } */
